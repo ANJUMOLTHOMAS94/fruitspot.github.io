@@ -37,7 +37,7 @@ products {
 }
 
 button {
-    background: #9a031e;
+    background: #5f0f40;
     color: white;
     border: none;
     padding: 10px;
@@ -54,5 +54,6 @@ button:hover {
         font-size: 1.5rem;
     }
 }
+
 
 

@@ -1,4 +1,4 @@
-body {
+/*body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ header {
     text-align: center;
 }
 
-#products {
+products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
@@ -47,6 +47,89 @@ button {
 
 button:hover {
     background: #e63e5a;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+}*/
+
+:root {
+    /* Color palette */
+    --primary-color: #ff4d6d;       /* Pinkish */
+    --primary-hover: #e63e5a;       /* Darker pink */
+    --background-color: #fff9fb;    /* Soft off-white */
+    --card-border-color: #eaeaea;   /* Light gray border */
+    --text-color: #333333;          /* Dark text */
+    --header-text-color: #ffffff;   /* White text */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    background: var(--primary-color);
+    color: var(--header-text-color);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    border: 1px solid var(--card-border-color);
+    border-radius: 12px;
+    overflow: hidden;
+    background: white;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid var(--card-border-color);
+}
+
+.product-card h3 {
+    margin: 12px 0;
+    font-weight: 600;
+}
+
+button {
+    background: var(--primary-color);
+    color: var(--header-text-color);
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 0 0 12px 12px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: var(--primary-hover);
 }
 
 @media (max-width: 600px) {

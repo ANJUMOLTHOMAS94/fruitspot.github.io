@@ -58,7 +58,7 @@ button:hover {
 :root {
     /* Color palette */
     --primary-color: #5f0f40 ;       /* Pinkish #ff4d6d*/
-    --primary-hover: #e63e5a;       /* Darker pink */
+    --primary-hover: #fb8b24;       /* Darker pink */
     --background-color: #fff9fb;    /* Soft off-white */
     --card-border-color: #eaeaea;   /* Light gray border */
     --text-color: #333333;          /* Dark text */
@@ -137,4 +137,5 @@ button:hover {
         font-size: 1.5rem;
     }
 }
+
 

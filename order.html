@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FruitSpot - Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🍓 FruitSpot</h1>
+        <a href="index.html">← Back to Home</a>
+    </header>
+
+    <main>
+        <h2>Order Your Salad</h2>
+        <form id="orderForm">
+            <input type="hidden" id="productName" name="productName">
+            <label>Your Name</label>
+            <input type="text" name="name" required>
+            <label>Phone Number</label>
+            <input type="tel" name="phone" required>
+            <label>Quantity</label>
+            <input type="number" name="quantity" min="1" value="1" required>
+            <button type="submit">Place Order</button>
+        </form>
+        <p id="orderConfirmation"></p>
+    </main>
+
+    <footer>
+        <p>© 2025 FruitSpot</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

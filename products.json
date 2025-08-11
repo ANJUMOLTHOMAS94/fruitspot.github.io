@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Tropical Delight",
+        "price": "£8.99",
+        "description": "A mix of mango, pineapple, papaya, and kiwi for a tropical escape.",
+        "image": "images/tropical_delight.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Berry Blast",
+        "price": "£7.50",
+        "description": "Strawberries, blueberries, raspberries, and blackberries for berry lovers.",
+        "image": "images/berry_blast.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Exotic Paradise",
+        "price": "£9.50",
+        "description": "Dragon fruit, pomegranate, passion fruit, and lychee in a vibrant platter.",
+        "image": "images/exotic_paradise.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Citrus Sunshine",
+        "price": "£6.99",
+        "description": "Orange, grapefruit, tangerine, and lemon zest for a citrusy punch.",
+        "image": "images/citrus_sunshine.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Rainbow Melon",
+        "price": "£7.99",
+        "description": "Watermelon, cantaloupe, and honeydew in a colourful rainbow mix.",
+        "image": "images/rainbow_melon.jpg"
+    }
+]

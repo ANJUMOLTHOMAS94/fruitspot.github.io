@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background: #5f0f40;
+    background: #e36414;
     color: white;
     padding: 20px;
     text-align: center;
@@ -54,4 +54,5 @@ button:hover {
         font-size: 1.5rem;
     }
 }
+
 
